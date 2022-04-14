@@ -1,6 +1,6 @@
 import imp
 import setuptools
-from cding import __version__
+from cding import __version__, __author__
  
  
 with open("README.md", "r") as fh:
@@ -10,7 +10,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="cding", 
     version=__version__,
-    author="ding chen",
+    author=__author__,
     author_email="kevindingchan@outlook.com",
     license='MIT',
     description="A library with various functionality that can be useful.",

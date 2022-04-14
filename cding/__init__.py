@@ -4,4 +4,5 @@ from .utils import *
 from .vis import *
 
 
+__author__ = "cding"
 __version__ = '0.0.7'
